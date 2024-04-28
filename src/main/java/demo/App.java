@@ -15,13 +15,17 @@ public class App {
 
         //TODO: call your test case functions one after other here
 
-        tests.testCase01();
+       tests.testCase01();
+    
+    
 
         //END Tests
 
 
         tests.endTest(); // End your test by clearning connections and closing browser
     }
+
+ 
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
         new App().getGreeting();
